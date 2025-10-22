@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: genai-stack-config
+data:
+  supabase_url: "https://your-project.supabase.co"
+  backend_url: "http://genai-stack-backend:8000"
+  chromadb_url: "http://chromadb:8000"
